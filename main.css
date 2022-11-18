@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Bek;
+    src: url("./ke/Fasthand-Regular.ttf");
+}
+@font-face{
+    font-family: Mustafo;
+    src: url(./bek/static/DancingScript-SemiBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    color: red;
+}
+.text{
+    color: blue;
+    font-size: 28px;
+    font-weight: 100px;
+    font-style: italic;
+    /* text-decoration: underline dashed; */
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    line-height: 2cm;
+    font-family: Mustafo;
+}
+.lorem{
+    /* 1rem = 16px */
+    font-size: 1cm;
+}
+.container{
+    width: 800px;
+    /* vh = viewport heght */
+    height: 80vh;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+.box{
+    /* % = parentdan meros olish */
+    width: 50px;
+    height: 50px;
+    background: blue;
+}
+.box2{
+    /* vw = ekrandan meros olish */
+    width: 50vw;
+    height: 50px;
+    background: green;
+}
+.font{
+ font-size: 100px;
+    font-family: Bek;
+}
